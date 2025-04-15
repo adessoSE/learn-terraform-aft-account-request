@@ -16,7 +16,7 @@ module "confcoco-management-account" {
 
   change_management_parameters = {
     change_requested_by = "Bekir Kocabas"
-    change_reason       = "we need a management account for confcoco"
+    change_reason       = "We need a management account for confcoco"
   }
 
   custom_fields = {
