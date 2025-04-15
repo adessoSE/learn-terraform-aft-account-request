@@ -24,3 +24,5 @@ module "confcoco-management-account" {
   }
 
   account_customizations_name = "confcoco"
+
+}
