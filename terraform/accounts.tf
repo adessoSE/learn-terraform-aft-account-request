@@ -69,7 +69,7 @@ module "sandbox-abdurrahim" {
   }
 
   account_tags = {
-    "Name" = "confcoco-repo-account"
+    "Name" = "sandbox-abdurrahim"
   }
 
   change_management_parameters = {
@@ -81,6 +81,6 @@ module "sandbox-abdurrahim" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox-abdurrahim"
+  account_customizations_name = "sandbox"
 
 }
