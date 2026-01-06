@@ -60,21 +60,21 @@ module "sandbox-abdurrahim" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "Abdurrahim.Cavus@adesso.de"
-    AccountName               = "sandbox-abdurrahim"
+    AccountEmail              = "Christian.Schulz@adesso.de"
+    AccountName               = "sandbox-christian"
     ManagedOrganizationalUnit = "sandbox"
-    SSOUserEmail              = "Abdurrahim.Cavus@adesso.de"
-    SSOUserFirstName          = "Abdurrahim"
-    SSOUserLastName           = "Cavus"
+    SSOUserEmail              = "Christian.Schulz@adesso.de"
+    SSOUserFirstName          = "Christian"
+    SSOUserLastName           = "Schulz"
   }
 
   account_tags = {
-    "Name" = "sandbox-abdurrahim"
+    "Name" = "sandbox-christian"
   }
 
   change_management_parameters = {
     change_requested_by = "Bekir Kocabas"
-    change_reason       = "Sandbox account creation requested by Abdurrahim for development purposes"
+    change_reason       = "Sandbox account creation requested by Christian for development purposes"
   }
 
   custom_fields = {
